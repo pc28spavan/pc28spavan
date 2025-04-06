@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 3",
+	"properties": {
+		"content": {
+			"query": "Create table round_table \n(\n    id int,\n    name varchar(4000),\n    salary int\n)\ninsert into round_table\nvalues (\n    1,'aa',4\n)\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "pavanpool",
+				"poolName": "pavanpool"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
